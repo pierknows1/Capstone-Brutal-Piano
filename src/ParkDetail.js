@@ -3,26 +3,27 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 const ParkDetail = () => {
-  const { parkCode } = useParams();
+  const { fullName } = useParams();
   const [park, setPark] = useState({});
   const [loading, setLoading] = useState(true);
-
+  console.log(fullName);
   useEffect(() => {
     const apiKey = 'QDzPwbDBoLdn0Sy95L6Rfl59LXnt4BmefytYHaBu';
-    const apiUrl = `https://developer.nps.gov/api/v1/parks?parkCode=${parkCode}&api_key=${apiKey}`;
+    const apiUrl = `https://developer.nps.gov/api/v1/parks?parkCode=${fullName}&api_key=${apiKey}`;
 
     axios
       .get(apiUrl)
       .then((response) => {
         const parkData = response.data.data[0];
         setPark(parkData);
+        console.log(parkData);
         setLoading(false);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
         setLoading(false);
       });
-  }, [parkCode]);
+  }, [fullName]);
 
   return (
     <div>

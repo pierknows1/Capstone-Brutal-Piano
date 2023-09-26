@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<NpsParksByState />} />
-          <Route path="/park/:parkId" element={<ParkDetail />} />
+          <Route path="/park/:fullName" element={<ParkDetail />} />
         </Routes>
       </div>
     </Router>
