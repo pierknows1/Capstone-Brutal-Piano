@@ -33,6 +33,10 @@ const ParkDetail = () => {
         <div>
           <h1>{park.fullName}</h1>
           <p>{park.description}</p>
+          <p>{park.parkCode}</p>
+          <p>{park.directionsUrl}</p>
+          <p>{park.name}</p>
+          <p>{park.designation}</p>
           
         </div>
       ) : (
