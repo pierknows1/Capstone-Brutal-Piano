@@ -9,7 +9,7 @@ const ParkDetail = () => {
   console.log(fullName);
   useEffect(() => {
     const apiKey = 'QDzPwbDBoLdn0Sy95L6Rfl59LXnt4BmefytYHaBu';
-    const apiUrl = `https://developer.nps.gov/api/v1/parks?parkCode=${fullName}&api_key=${apiKey}`;
+    const apiUrl = `https://developer.nps.gov/api/v1/parks?id=${fullName}&api_key=${apiKey}`;
 
     axios
       .get(apiUrl)
