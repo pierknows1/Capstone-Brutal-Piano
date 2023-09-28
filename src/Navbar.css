@@ -1,0 +1,52 @@
+.navLayout {
+  background-color: black; 
+  color: white; 
+}
+
+body {
+  font-family: 'Nimbus Sans D', sans-serif;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Nimbus Sans D';
+  src: url('nimbus.ttf') format('opentype');
+}
+
+.navbar {
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed; 
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navBar-Inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.site-title {
+  text-decoration: none;
+  color: white; /* Set the text color to white */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navBar-nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.navBar-Item {
+  margin: 0 15px;
+}
+
+.navBar-Item a {
+  text-decoration: none;
+  color: white; 
+}
