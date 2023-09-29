@@ -9,17 +9,17 @@ export default function NavBar() {
                 <div className="navBar-Inner">
                     <Link to="/" className="site-title">Piano</Link>
                     <ul className="navBar-nav">
-                        <li className="navBar-Item">
-                            <CustomLink to="/Signin"> Sign In </CustomLink>
+                    <li className="navBar-Item">
+                            <CustomLink to="/SearchPark"> Search </CustomLink>
                         </li>
                         <li className="navBar-Item">
                             <CustomLink to="/About"> About </CustomLink>
                         </li>
                         <li className="navBar-Item">
-                            <CustomLink to="/SearchPark"> Search </CustomLink>
+                            <CustomLink to="/"> Account </CustomLink>
                         </li>
                         <li className="navBar-Item">
-                            <CustomLink to="/"> Home </CustomLink>
+                            <CustomLink to="/Signin"> Sign In </CustomLink>
                         </li>
                     </ul>
                 </div>
