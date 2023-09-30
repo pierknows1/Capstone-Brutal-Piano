@@ -1,5 +1,6 @@
-import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+
+import { initializeApp } from 'firebase/app';
+import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: "AIzaSyC_WRd_qPT2ojq1ahsD1QsFSBzf8b-r_aU",
@@ -17,15 +18,15 @@ export const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
 export const signInWithGoogle = () => {
-  signInWithPopup(auth, provider)
-    .then((result) => {
-      const name = result.user.displayName;
-      const email = result.user.email;
+  return signInWithPopup(auth, provider);
+};
 
-      localStorage.setItem("name", name);
-      localStorage.setItem("email", email);
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+export const checkAuthStatus = (callback) => {
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      callback(true);
+    } else {
+      callback(false);
+    }
+  });
 };

@@ -1,17 +1,11 @@
 import React from 'react';
-import { signInWithGoogle } from '../firebase'; 
-// import landingimage from './landingimage.jpg'; 
+import './LandingPage.css';
 
 const LandingPage = () => {
-  const handleSignInWithGoogle = () => {
-    signInWithGoogle(); // Call the signInWithGoogle function when the button is clicked
-  };
-
   return (
-    <div>
-      <h1>Welcome to Piano</h1>
-      <p>hike.</p>
-      <button onClick={handleSignInWithGoogle}>Explore?</button>
+    <div className="landing-container">
+      <h1 className="landing-header">Piano</h1>
+      <p className="landing-par">Log in and start exploring.</p>
     </div>
   );
 };

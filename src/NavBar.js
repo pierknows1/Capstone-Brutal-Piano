@@ -5,7 +5,7 @@ import './Navbar.css';
 export default function NavBar() {
     return (
         <div className="navLayout">
-            <nav className="navBar">
+            <nav className="navbar">
                 <div className="navBar-Inner">
                     <Link to="/" className="site-title">Piano</Link>
                     <ul className="navBar-nav">
@@ -16,7 +16,7 @@ export default function NavBar() {
                             <CustomLink to="/About"> About </CustomLink>
                         </li>
                         <li className="navBar-Item">
-                            <CustomLink to="/"> Account </CustomLink>
+                            <CustomLink to="Account"> Account </CustomLink>
                         </li>
                         <li className="navBar-Item">
                             <CustomLink to="/Signin"> Sign In </CustomLink>
