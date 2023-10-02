@@ -1,6 +1,6 @@
 .navLayout {
   background-color: black; 
-  color: white; 
+  color: whitesmoke; 
 }
 
 body {
@@ -14,8 +14,7 @@ body {
 }
 
 .navbar {
-  background-color: black;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
   position: fixed; 
   width: 100vw;
   top: 0;
@@ -32,9 +31,10 @@ body {
 
 .site-title {
   text-decoration: none;
-  color: white; /* Set the text color to white */
-  font-size: 1.5rem;
+  color: #ffdb58;
+  font-size: 2.5rem;
   font-weight: bold;
+  -webkit-text-stroke: .75px black;
 }
 
 .navBar-nav {
@@ -48,5 +48,6 @@ body {
 
 .navBar-Item a {
   text-decoration: none;
-  color: white; 
+  color: #ffdb58; 
+  -webkit-text-stroke: .5px black;
 }
