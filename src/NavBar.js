@@ -4,7 +4,7 @@ import './Navbar.css';
 
 export default function NavBar() {
     return (
-        <div className="navLayout">
+        
             <nav className="navbar">
                 <div className="navBar-Inner">
                     <Link to="/" className="site-title">Piano</Link>
@@ -24,7 +24,6 @@ export default function NavBar() {
                     </ul>
                 </div>
             </nav>
-        </div>
     );
 }
 

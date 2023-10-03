@@ -13,12 +13,12 @@
     text-align: center;
   }
   
-  .signInButton {
+  .SignInButton {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    background-color: whitesmoke; 
-    color: black;
+    align-items: center;
+    background-color: #4285F4;
+    color: whitesmoke;
     border: 1px solid black;
     padding: 10px 20px;
     font-size: 16px;
@@ -26,8 +26,8 @@
     cursor: pointer;
     border-radius: 5px;
     margin: 0 auto;
-    margin-top: 20px; 
-    white-space: nowrap; 
+    margin-top: 20px;
+    white-space: nowrap;
   }
   
  
