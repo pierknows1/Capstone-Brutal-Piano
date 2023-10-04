@@ -1,7 +1,7 @@
 .landing-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
   background: url('landingimage.jpg') no-repeat center center;
   background-position: center center;
   background-size: cover;
@@ -17,7 +17,7 @@
 .landing-right {
   flex: 1;
   text-align: center;
-  animation: blink 1.5s forwards infinite 4.5s;
+  animation: blink 3s forwards infinite 0.5s;
 }
 
 .landing-header {
@@ -39,7 +39,7 @@
 }
 
 .landing-phrase {
-  font-size: 75px;
+  font-size: 70px;
   color: whitesmoke;
   font-style: bold;
   -webkit-text-stroke: 1.2px black;
@@ -56,4 +56,14 @@
   100% {
      opacity: 1;
   }
+}
+
+.landing-link {
+  cursor: pointer;
+  font-size: 25px;
+  color: whitesmoke;
+  font-style: bold;
+  -webkit-text-stroke: 1.2px black;
+  letter-spacing: -2px;
+
 }

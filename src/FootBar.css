@@ -9,41 +9,31 @@ body {
   src: url('nimbus.ttf') format('opentype');
 }
 
-.navbar {
+.footbar {
   background-color: transparent;
-  position: absolute; 
+  position: absolute;
   width: 100vw;
-  top: 100;
-  left: 0;
-  height: 100vh;
+  bottom: 0; 
 }
 
-.navBar-Inner {
+.footBar-Inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 
-.site-title {
-  text-decoration: none;
-  color: #ffdb58;
-  font-size: 2.5rem;
-  font-weight: bold;
-  -webkit-text-stroke: .75px black;
-}
-
-.navBar-nav {
+.footBar-nav {
   list-style-type: none;
   display: flex;
 }
 
-.navBar-Item {
+.footBar-Item {
   margin: 0 15px;
 }
 
-.navBar-Item a {
+.footBar-Item a {
   text-decoration: none;
-  color: #ffdb58; 
-  -webkit-text-stroke: .5px black;
+  color: #ffdb58;
+  -webkit-text-stroke: 0.5px black;
 }

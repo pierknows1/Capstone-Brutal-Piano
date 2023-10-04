@@ -1,21 +1,22 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
-import './Navbar.css'; 
+import './FootBar.css'; 
 
-export default function NavBar() {
+export default function FootBar() {
     return (
         
-            <nav className="navbar">
-                <div className="navBar-Inner">
-                    <ul className="navBar-nav">
-                    <li className="navBar-Item">
-                        <CustomLink to="/SearchPark"> Search </CustomLink>
+            <footer className="footbar">
+                <div className="footBar-Inner">
+                    <ul className="footBar-nav">
+                    <li className="footBar-Item">
+                            <CustomLink to="/Account"> Account </CustomLink>
                         </li>
-                        <li className="navBar-Item">
-                        <CustomLink to="/About"> About </CustomLink>
+                        <li className="footBar-Item">
+                            <CustomLink to="/Signin"> Sign In </CustomLink>
                         </li>
+                    
                     </ul>
                 </div>
-            </nav>
+            </footer>
     );
 }
 
