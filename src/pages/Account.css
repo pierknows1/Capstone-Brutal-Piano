@@ -1,4 +1,111 @@
+.background-set1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background: url('landingimage.jpg') no-repeat center center;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 20px;
+}
 
+.card {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 100px auto; /* Set margin to auto to center horizontally and provide top margin */
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  margin-right: 20px;
+}
+
+/* Profile Information Section */
+.user-details {
+  text-align: left;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.edit-button {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-profile input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.edit-profile button {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hiking List and Statistics Section */
+hike-list,
+stats {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+
+/* Add styles for statistics and hike list as needed */
+
+
+
+/* 
 .account-container {
     background-color: #fff; 
     color: #000; 
@@ -6,7 +113,7 @@
     border: 1px solid #000;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 75px;
+    margin-top: 25px;
   }
   
   .account-title {
@@ -32,4 +139,4 @@
   span {
     font-weight: normal;
   }
-  
+   */

@@ -7,13 +7,16 @@ export default function FootBar() {
             <footer className="footbar">
                 <div className="footBar-Inner">
                     <ul className="footBar-nav">
+                        <div className="botLeft">
                     <li className="footBar-Item">
-                            <CustomLink to="/Account"> Account </CustomLink>
+                            <CustomLink to="/Account"> me </CustomLink>
                         </li>
+                        </div>
+                        <div className="botRight">
                         <li className="footBar-Item">
-                            <CustomLink to="/Signin"> Sign In </CustomLink>
+                            <CustomLink to="/Signin"> sign In </CustomLink>
                         </li>
-                    
+                        </div>
                     </ul>
                 </div>
             </footer>

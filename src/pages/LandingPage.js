@@ -19,7 +19,8 @@ const LandingPage = () => {
       </div>
       <div className="landing-right">
         <p className="landing-phrase">
-          TURNS OUT YOU DON'T NEED ALL THAT STUFF YOU INSISTED YOU DID.
+          TURNS OUT YOU DON'T NEED ALL 
+          THAT STUFF YOU INSISTED YOU DID.
         </p>
       </div>
     </div>

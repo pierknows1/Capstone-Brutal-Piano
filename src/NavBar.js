@@ -7,12 +7,22 @@ export default function NavBar() {
             <nav className="navbar">
                 <div className="navBar-Inner">
                     <ul className="navBar-nav">
+                        <div className="topLeft">
                     <li className="navBar-Item">
-                        <CustomLink to="/SearchPark"> Search </CustomLink>
+                        <CustomLink to="/SearchPark"> search </CustomLink>
                         </li>
+                        </div>
+                        <div className="centerDot">
+                    <li className="navBar-Item">
+                        <CustomLink to="/"> . </CustomLink>
+                        </li>
+                        </div>
+                        
+                        <div className="topRight">
                         <li className="navBar-Item">
-                        <CustomLink to="/About"> About </CustomLink>
+                        <CustomLink to="/About"> about </CustomLink>
                         </li>
+                        </div>
                     </ul>
                 </div>
             </nav>
