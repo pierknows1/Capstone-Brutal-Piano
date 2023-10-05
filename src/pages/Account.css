@@ -95,7 +95,7 @@ li {
 .empty-profile-image {
   width: 150px;
   height: 150px;
-  background-color: #ccc;
+  background-color: transparent;
   border: 2.5px solid #000;
   border-radius: 50%;
   display: flex;
