@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Account.css';
 
+
 export default function Account() {
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');

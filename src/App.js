@@ -8,6 +8,7 @@ import Account from './pages/Account';
 import About from './pages/About';
 import { checkAuthStatus } from './firebase';
 import FootBar from './FootBar';
+import ParkDetail from './pages/ParkDetail';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -30,6 +31,8 @@ function App() {
             {isAuthenticated ? <Route index element={<SearchPark />} /> : null}
           </Route>
           <Route path="/Account" element={<Account />} />
+          <Route path="/park/:id" element={<ParkDetail />} />
+          
         </Routes>
       </div>
       <FootBar />

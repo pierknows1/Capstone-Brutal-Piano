@@ -31,7 +31,7 @@
 }
 
 .profile {
-  text-align: left; 
+  text-align: center; 
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -63,6 +63,7 @@ p {
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
+  margin: 10px auto;
 }
 
 .edit-profile input,
@@ -112,4 +113,8 @@ li {
   border-radius: 15%;
   object-fit: cover;
   font-size: 22.5px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -45,11 +45,11 @@ const SignInButton = ({ redirectTo }) => {
         <button onClick={handleSignInWithEmailPassword}>Log In</button>
         </form>
         <p>
-        <a onClick={handleForgotPassword}>Forgot your password?</a>
+        <a onClick={handleForgotPassword}> Forgot your password?</a>
           </p>
       <   div className="continue-with">
         <button onClick={handleSignInWithGoogle} className="google-button">
-          Sign in with Google
+          Sign in with Google.
         </button>
           </div>
           <p>
