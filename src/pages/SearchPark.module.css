@@ -46,21 +46,24 @@
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    position: relative; 
   }
   
   .searchBar {
-    background-color: #fff;
-    padding: 10px; 
-    border: 2px solid #000;
-    border-radius: 10px;
+    background-color: rgba(164, 181, 160, 0.8);
+    padding: 10px;
+    border: 3px solid #000;
+    border-radius: 7.5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     max-width: 800px;
     width: 100%;
+    position: relative; 
   }
  
   .input {
+    background-color: transparent;
     border: none;
     border-radius: 0;
     font-size: 18px;
@@ -78,7 +81,7 @@
   .resultsContainer {
     flex: 1;
     margin-top: 20px;
-    background-color: #fff;
+    background-color: whitesmoke;
     padding: 20px;
     border: 2px solid #000;
     border-radius: 10px;
