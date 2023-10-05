@@ -26,7 +26,6 @@ const SearchPark = () => {
             setSearchBarClass(styles.left);
           })
           .catch((error) => {
-            console.error('Error fetching data:', error);
           });
   };
 

@@ -17,11 +17,9 @@ const ParkDetail = () => {
         .then((response) => {
           const parkData = response.data.data[0];
           setPark(parkData);
-          console.log(parkData);
           setLoading(false);
         })
         .catch((error) => {
-          console.error('Error fetching data:', error);
           setLoading(false);
         }); }, [id]);
 

@@ -19,7 +19,6 @@ const SignInButton = ({ redirectTo }) => {
       await signInWithGoogle();
       navigate(redirectTo);
     } catch (error) {
-      console.log(error);
     }
   };
 
