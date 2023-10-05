@@ -3,7 +3,6 @@ import './FootBar.css';
 
 export default function FootBar() {
     return (
-        
             <footer className="footbar">
                 <div className="footBar-Inner">
                     <ul className="footBar-nav">
@@ -14,7 +13,7 @@ export default function FootBar() {
                         </div>
                         <div className="botRight">
                         <li className="footBar-Item">
-                            <CustomLink to="/Signin"> sign In </CustomLink>
+                            <CustomLink to="/Signin"> sign in </CustomLink>
                         </li>
                         </div>
                     </ul>

@@ -17,7 +17,7 @@ function App() {
       setIsAuthenticated(authenticated);
     });
   }, []);
-    
+  
   return (
     <Router>
       <NavBar />

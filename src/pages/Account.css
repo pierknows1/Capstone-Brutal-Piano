@@ -1,7 +1,7 @@
-.background-set1{
+.personal-container {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   background: url('landingimage.jpg') no-repeat center center;
   background-position: center center;
   background-size: cover;
@@ -9,134 +9,107 @@
   padding: 0 20px;
 }
 
-.card {
-  background-color: #fff;
-  color: #000;
-  padding: 20px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 100px auto; /* Set margin to auto to center horizontally and provide top margin */
+.personal-info-card {
+  font-size: 22.5px;
+  font-weight: 600;
+  border: 2.5px solid #000;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2.5px 2.5px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+  max-width: 400px;
+  height: auto;
+  transition: all 0.3s;
+  color: whitesmoke;
+}
+
+.hikes-card.saved {
+  border: 2.5px solid #000;
+  margin: 70px auto;
+  font-size: 26px;
+  padding: 50px;
 }
 
 .profile {
+  text-align: left; 
   display: flex;
   flex-direction: column;
+  align-items: left;
 }
 
-.profile-info {
-  display: flex;
-  align-items: center;
-}
-
-.profile-picture {
-  margin-right: 20px;
-}
-
-/* Profile Information Section */
 .user-details {
-  text-align: left;
+  text-align: left; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
-h1 {
-  font-size: 24px;
+h2 {
+  font-size: 26px;
   margin: 0;
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   margin: 5px 0;
 }
 
 .edit-button {
-  background-color: #0074d9;
+  background-color: #000;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border: 2.5px solid #000;
+  padding: 12.5px 22.5px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.edit-profile input {
+.edit-profile input,
+.edit-profile textarea,
+.input-field {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
+  border: 2.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
 }
 
-.edit-profile button {
-  background-color: #0074d9;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-/* Hiking List and Statistics Section */
-hike-list,
-stats {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
+.hikes-card {
+  font-size: 22.5px;
+  font-weight: 600;
+  border: 2.5px solid #000;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2.5px 2.5px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  color: whitesmoke;
 }
 
 li {
-  font-size: 18px;
-  margin-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
+.empty-profile-image {
+  width: 150px;
+  height: 150px;
+  background-color: #ccc;
+  border: 2.5px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: #000;
+}
 
-/* Add styles for statistics and hike list as needed */
-
-
-
-/* 
-.account-container {
-    background-color: #fff; 
-    color: #000; 
-    padding: 20px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 25px;
-  }
-  
-  .account-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .account-details {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .account-info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  span {
-    font-weight: normal;
-  }
-   */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  border-radius: 15%;
+  object-fit: cover;
+  font-size: 22.5px;
+}
