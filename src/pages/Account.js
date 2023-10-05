@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Account.css';
-
+import { FaPlus } from 'react-icons/fa'; 
 
 export default function Account() {
   const [name, setName] = useState('');
@@ -97,21 +97,23 @@ export default function Account() {
       </div>
 
       <div className="hikes-card">
-        <div className="hike-list">
-          <h2>My Hikes</h2>
-          <input
-            type="text"
-            value={hike}
-            onChange={(e) => setHike(e.target.value)}
-            placeholder="Add a new hike"
-          />
-          <button onClick={addHike}>Add</button>
-          <ul>
-            {hikeList.map((hike, index) => (
-              <li key={index}>{hike}</li>
-            ))}
-          </ul>
-        </div>
+      <div className="hike-list">
+  <h2>My Hikes</h2>
+  <input
+    type="text"
+    value={hike}
+    onChange={(e) => setHike(e.target.value)}
+    placeholder="Add a new hike"
+  />
+ <button onClick={addHike}>
+  <FaPlus /> 
+</button>
+  <ul>
+    {hikeList.map((hike, index) => (
+      <li key={index}>{hike}</li>
+    ))}
+  </ul>
+</div>
 
         <div className="stats">
           <h2>Statistics</h2>
