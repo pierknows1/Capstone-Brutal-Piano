@@ -1,0 +1,150 @@
+.personal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url('landingimage.jpg') no-repeat center center;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.personal-info-card {
+  font-size: 22.5px;
+  font-weight: 600;
+  border: 2.5px solid #000;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2.5px 2.5px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+  max-width: 400px;
+  height: auto;
+  transition: all 0.3s;
+  color: whitesmoke;
+}
+
+.hikes-card.saved {
+  border: 2.5px solid #000;
+  margin: 70px auto;
+  font-size: 26px;
+  padding: 50px;
+}
+
+.profile {
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.user-details {
+  text-align: left; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.edit-button {
+  background-color: #000;
+  color: white;
+  border: 2.5px solid #000;
+  padding: 12.5px 22.5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px auto;
+}
+
+.edit-profile input,
+.edit-profile textarea,
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.hikes-card {
+  font-size: 22.5px;
+  font-weight: 600;
+  border: 2.5px solid #000;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2.5px 2.5px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  color: whitesmoke;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.empty-profile-image {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: 2.5px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: #000;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  border-radius: 15%;
+  object-fit: cover;
+  font-size: 22.5px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hikes-card input,
+.hikes-card button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.stats {
+  font-size: 20px; 
+  text-align: center; 
+  font-size: 26px; 
+  margin-top: 20px;
+}
+
+.hike-list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hike-list button {
+  font-size: 16px;
+  padding: 8px 16px; 
+  border-radius: 5px;
+}

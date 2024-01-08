@@ -1,0 +1,52 @@
+body {
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    perspective: 50em;
+    visibility: visible;
+    overflow: hidden;
+  }
+  
+  .road {
+    position: absolute;
+    width: 100px;
+    left: calc(50vw - 350px);
+    height: 250vh;
+    top: 0;
+    border-left: 1.5px solid #000;
+    border-right: 1.5px solid #000;
+    transform: rotateX(40deg);
+    transform-origin: left 0;
+    background: whitesmoke;
+  }
+  
+  .mid-road-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mid-road-container:first-child {
+    margin-top: 0px;
+  }
+  
+  .mid-road {
+    background: whitesmoke;
+    width: 10px;
+    height: 40px;
+    margin-bottom: 60px;
+    border-left: 1.5px solid #000;
+    border-right: 1.5px solid #000;
+    border-top: 1.5px solid #000;
+    border-bottom: 1.5px solid #000;
+  }
+  

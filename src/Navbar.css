@@ -1,0 +1,56 @@
+body {
+  font-family: 'Nimbus Sans D', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Nimbus Sans D';
+  src: url('nimbus.ttf') format('opentype');
+}
+
+.navbar {
+  background-color: transparent;
+  position: absolute; 
+  width: 100vw;
+  top: 0;
+}
+
+.navBar-Inner {
+  padding: 55px;
+}
+
+.navBar-nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; 
+  padding: 0;
+}
+
+.navBar-Item {
+  margin: 0 20px;
+}
+
+.navBar-Item a {
+  text-decoration: none;
+  color: #ffdb58; 
+  -webkit-text-stroke: .5px black;
+  font-size: 35px;
+}
+
+.topLeft {
+  flex:1;
+
+}
+
+.topRight {
+  flex:1;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.centerDot {
+  display: flex;
+}

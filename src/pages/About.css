@@ -1,0 +1,35 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.about-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.about-content {
+  text-align: left; 
+  font-size: 1.5rem; 
+  padding: 20px;
+  border: 2px solid #000;
+  max-width: 600px;
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.about-description {
+  margin: 20px 0; 
+}
+
+.meInfo  {
+  margin: 0; 
+  text-align: center;
+  font-size: small;
+}
